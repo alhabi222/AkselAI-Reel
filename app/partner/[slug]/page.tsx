@@ -1,0 +1,1 @@
+// app/partner/[slug]/page.tsx
