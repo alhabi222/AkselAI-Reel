@@ -1,5 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
 
-# Settings for App Hosting
-# This file is now compatible with the `gcloud app deploy` command.
-runtime: nodejs20
 
