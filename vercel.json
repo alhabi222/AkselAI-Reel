@@ -1,8 +1,0 @@
-
-# Settings for App Hosting
-# This file is now compatible with the `gcloud app deploy` command.
-runtime: nodejs20
-{
-  "rootDirectory": "src"
-}
-
